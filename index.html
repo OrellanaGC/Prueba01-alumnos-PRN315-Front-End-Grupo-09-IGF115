@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Ventanas Modales Bootsrap</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <body>
+            <div class="container">
+                <div class="modal fade" tabindex="-1" id="modal1">
+                    <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quae repudiandae nam ut eaque quibusdam laudantium sed. Accusantium, ipsum praesentium ad veritatis optio quas. Beatae animi temporibus harum fugiat possimus.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary">Guardar cambios</button>
+                                <button class="btn btn-danger" data-dismiss="modal">&times;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#modal1">MOSTRAR MODAL</button>
+            </div>
+            
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            <!-- Optional JavaScript -->
+            <script type="text/javascript">
+                $(function(){
+                    $('#modal1').on('hidden.bs.modal', function(e){
+                        alert('El modal ha sido llamado')
+                    })
+                });
+                $(document).on('click', 'mostrar-modal', function(){
+                    $('#modal1').modal('show');
+                })
+            </script>
+        </body>
+    </head>
+</html>
