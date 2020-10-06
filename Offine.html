@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <a href=".multi" class="btn btn-primary" data-toggle="collapse">Desplegar</a>
+      <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#toggle2">Desplegar2</button>
+      <div class="collapse multi" id="toggle1">
+        <div class="card card-body">
+          <p>Este es mi contenido desplegable 1</p>
+        </div>
+      </div>
+      <div class="collapse multi" id="toggle2">
+        <div class="card card-body">
+          <p>Este es mi contenido desplegable 2</p>
+        </div>
+      </div>
+
+
+      <div class="accordion">
+        <div class="card">
+          <div class="card-header">
+            <h2><a data-toggle="collapse" class="btn btn-link" href="#card1">Encabezado</a></h2>
+          </div>
+          <div class="collapse" id="card1">
+            <div class="card-body">
+              Este es mi contenido oculto
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2><a data-toggle="collapse" class="btn btn-link" href="#card2">Encabezado</a></h2>
+          </div>
+          <div class="collapse" id="card2">
+            <div class="card-body">
+              Este es mi contenido oculto
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
