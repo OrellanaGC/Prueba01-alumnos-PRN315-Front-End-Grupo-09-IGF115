@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      $(document).on('click', '#cerrar-alerta', function(){
+        $('#alert1').alert('close');
+      })
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="alert alert-primary alert-dismissible fade show" id="alert1">
+        <h3 class="alert-heading">Advertencia</h3>
+        Esta es una alerta primaria <a href="#" class="alert-link">Enlace</a>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" name="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <button id="cerrar-alerta" type="button" name="button">Cerrar</button>
+      <div class="alert alert-secondary">Esta es una alerta primaria <a href="#" class="alert-link">Enlace</a></div>
+      <div class="alert alert-info">Esta es una alerta primaria <a href="#" class="alert-link">Enlace</a></div>
+      <div class="alert alert-success">Esta es una alerta primaria <a href="#" class="alert-link">Enlace</a></div>
+      <div class="alert alert-danger">Esta es una alerta primaria <a href="#" class="alert-link">Enlace</a></div>
+      <div class="alert alert-warning">Esta es una alerta primaria <a href="#" class="alert-link">Enlace</a></div>
+      <div class="alert alert-dark">Esta es una alerta primaria <a href="#" class="alert-link">Enlace</a></div>
+      <div class="bg-dark" style="padding:10px">
+        <div class="alert alert-light">
+          <h3 class="alert-heading">Advertencia</h3>
+          Esta es una alerta primaria <a href="#" class="alert-link">Enlace</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
