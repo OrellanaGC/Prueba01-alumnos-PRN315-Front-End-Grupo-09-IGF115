@@ -1,8 +1,182 @@
 <HTML>
             <HEAD>
                 <TITLE>EJEMPLO WEB HTML</TITLE>
+                <!--iconos -->
+               
+                <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+               
+ <!--slider -->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+                      <!--estilos -->
+                <link rel="stylesheet"href="css/style.css">
                 </HEAD>
                 <BODY>
                     <P>PAGINA WEB</P>
+                    <i class="fa fa-pencil"></i>
+                    <div class="wrapper">  <!--codigo web -->
+                         <!--banner -->
+                        <div class="banner -wrapper">
+                            <header>
+                                <div class="header - inner">
+                                    <a href="index.html"id="logo">
+                                        <img src="img/pics/logo.png" alt="Logo del sitio web">
+                                    </a>
+                                     <!--navegacion movil -->
+                                    <nav>
+                                    <a href="#"id="menu - icon">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                     <!--lista desordenada pestanas de nav -->
+                                     <ul>
+                                         <li>
+                                             <a href="index.html">Inicio</a>
+                                         </li>
+                                         <li>
+                                            <a href="#skills">Habilidades</a>
+                                        </li>
+                                        <li>
+                                            <a href="#portfolio">Portafolio</a>
+                                        </li>
+                                        <li>
+                                            <a href="#services">Servicios</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contacto</a>
+                                        </li>
+                                     </ul>
+                                    </nav>
+                                                                                           </div>
+                            </header>
+                            <div>class="slide-wrap">
+                                <ul>
+                                    <li>img src="img/slider/slider1.jpg" alt="Slider UNo"></li>
+                                    <li>img src="img/slider/slider2.jpg" alt="Slider UNoa"></li>
+                                    <li>img src="img/slider/slider3.jpg" alt="Slider UNo"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <seccion> class="one-third" id="skills>
+                        <div class+"icon-wrap">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <h3>Diseño web</h3>
+                        <p>HOLA MUNDO</p>
+                    </seccion>
+
+                    <seccion> class="one-third" id="skills>
+                        <div class+"icon-wrap">
+                            <i class="fa fa-pencil-square-o"></i>
+                        </div>
+                        <h3>Diseño grafico</h3>
+                        <p>welcome</p>
+                    </seccion>
+
+                    <seccion> class="one-third" id="skills>
+                        <div class+"icon-wrap">
+                            <i class="fa fa-file-code-o"></i>
+                        </div>
+                        <h3>Desarrollo web</h3>
+                        <p>One last ride</p>
+                    </seccion>
+                    
+                    <div calss="one-third-padding"> id="services">
+                        <h3>the services 1</h3>
+                        <img src="img/pics/image1.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, dolor.</p>
+                    </div>
+
+                    <div calss="one-third-padding"> id="services">
+                        <h3>the services 2</h3>
+                        <img src="img/pics/image2.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, dolor.</p>
+                    </div>
+
+                    <div calss="one-third-padding"> id="services">
+                        <h3>the services 3</h3>
+                        <img src="img/pics/image3.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, dolor.</p>
+                    </div>
+                    
+                    
+                    <footer>
+                        <div> class="banner-wraper">
+                            <div>class="icon-text">
+                                <div> class="icon-text-icon">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Inicio</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#skills">Habilidades</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">portafolio</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contacto</a>
+                                        </li>
+                                    </ul>
+                               </div>
+
+                               <div> class="<icon-text-text>
+                                   <ul>
+                                       <li>
+                                           <a href="mailito:contact@ues.edu.sv">
+                                               <i> class="fa fa-envelope"></i>                                       </i>
+                                           </a>
+                                       </li>
+                                       <li>
+                                           <a href="http://facebook.com/ues">
+                                        <i> calss="fa fa-twitter">
+                                          </i>
+                                        </a>
+                                       </li>
+
+                                       <li>
+                                        <a href="http://twitter.com/ues">
+                                     <i> calss="fa fa-twitter">
+                                       </i>
+                                     </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="http://youtube.com/ues">
+                                     <i> calss="fa fa-youtube">
+                                       </i>
+                                     </a>
+                                    </li>
+
+                                   </ul>
+                               </div>
+                          </div>
+                        </div>
+                    </footer>
+
+                    <footer> class="seciybd-footer">
+                        <p>
+                            &copy; <a href="http://ues.edu.sv" target="_blank">ues.edu.sv</a>
+                        </p>
+                    </footer>
+
+                    <!-- scripts-->
+                    <script> 
+                    $(document).ready(funcion(){
+                        $('.slider1').bxSlider({
+                            mode: "fade"
+                        })
+                            $('.slider2').bxSlider({
+                            mode: "fade"
+                        })
+                            $('.slider3').bxSlider({
+                            mode: "fade"
+                        })
+                        })
+                    
+                    </script>
                 </BODY>
 </HTML>
