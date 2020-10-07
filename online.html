@@ -11,37 +11,30 @@
 </head>
 <body>
     <div class="container"> 
-        <button class="btn btn-primary">Boton</button>
-        <input type="button" class="btn btn-dark" value="Bton">
-        <a href="#" class="btn btn-danger" data-role="button">Enlace</a>
-        <button class="btn btn-outline-primary">solo contorno</button>
-        <button class="btn btn-primary btn-lg">Boton grande</button>
-        <button class="btn btn-primary btn-sm">Boton pequeño</button>
-        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-dark active">
-                <input type="radio" name="opcion" id="option1" checked="">option1
-            </label>
-            <label class="btn btn-dark">
-                <input type="radio" name="opcion" id="option2" checked="">option2
-            </label>
-            <label class="btn btn-dark">
-                <input type="radio" name="opcion" id="option3" checked="">option3
-            </label>
+        <div class="card col-md-8">
+            <img src="img/01.jpg" class="card-img-top">
+            <div class="card-body ">
+                <h5 class="card-title">Esta es una postal</h5>
+                <h6 class="card-subtitle text-muted">El Salvador</h6>
+                <p class="card-text">Este es un mensaje de mi carta</p>
+                <a href="#" class="btn btn-primary">VER</a>
+                <a href="#" class="btn btn-danger">DESCARTAR</a>
+            </div>
         </div>
-        <div class="btn-group" role="group">
-            <button class="btn btn-primary"> izquierda</button>
-            <button class="btn btn-primary"> centro</button>
-            <button class="btn btn-primary"> derecha</button>
+
+        <div class="card col-md-8">
+            <div class="card-header">header</div>
+            <div class="card-body ">
+                <p class="card-text">Este es un mensaje de mi carta</p>
+            </div>
         </div>
-        <div role="group">
-            <button class="btn btn-primary"> izquierda</button>
-            <button class="btn btn-primary"> centro</button>
-            <button class="btn btn-primary"> derecha</button>
-        </div>
-        <div class="btn-group-vertical" role="group">
-            <button class="btn btn-primary" disabled="disabled"> izquierda</button>
-            <button class="btn btn-primary"> centro</button>
-            <button class="btn btn-primary"> derecha</button>
+
+        <div class="card" style="width:400px;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Elemento 1</li>
+                <li class="list-group-item">Elemento 2</li>
+                <li class="list-group-item">Elemento 3</li>
+            </ul>
         </div>
     </div>    
 </body>
