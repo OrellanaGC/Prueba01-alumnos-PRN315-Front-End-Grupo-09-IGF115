@@ -3,7 +3,7 @@
 <head>    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Ventanas Modales</title>    
+    <title>Barras de navegacion</title>    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -16,59 +16,75 @@
 
 <body>
     <div class="container">
-        <ul class="nav">
-            <li class="nav-item">
-                <a href="#" class="nav-link">Enlace 1</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link disabled">Enlace 2</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Enlace 3</a>
-            </li>
-        </ul>   
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand text-white">Parrillas</a>
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link">Otros</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link">Post</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" data-target="desplegable" href="#">
+                            Administacion
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Usarios</a>                        
+                            <a class="dropdown-item" href="#">Perfiles</a>
+                            <a class="dropdown-item" href="#">otros</a>
+                        </div>
+                    </li>
+                </ul>
+                <span class="navbar-text mr-sm-2">Texto Plano</span>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2">
+                    <button class="btn btn-success">Buscar</button>
+                </form>
+            </div>
+        </nav>
         
-        <ul class="nav nav-pills">
-            <a href="#" class="nav-link active">Enlace 1</a>
-            <a href="#" class="nav-link active disabled">Enlace 2</a>
-            <a href="#" class="nav-link active">Enlace 3</a>
-        </ul>
-
-        <ul class="nav nav-tabs">
-            <a href="#" class="nav-link active">Enlace 1</a>
-            <a href="#" class="nav-link active disabled">Enlace 2</a>
-            <a href="#" class="nav-link active">Enlace 3</a>
-        </ul>
-
-        <ul class="nav nav-tabs nav-pills">
-            <a href="#" class="nav-link active">Enlace 1</a>
-            <a href="#" class="nav-link active disabled">Enlace 2</a>
-            <a href="#" class="nav-link active">Enlace 3</a>
-        </ul>
-
-        <ul class="nav nav-tabs nav-pills  justify-content-center">
-            <a href="#" class="nav-link active">Enlace 1</a>
-            <a href="#" class="nav-link active disabled">Enlace 2</a>
-            <a href="#" class="nav-link active">Enlace 3</a>
-        </ul>
-
-        <ul class="nav nav-tabs nav-pills  justify-content-end">
-            <a href="#" class="nav-link active bg-danger">Enlace 1</a>
-            <a href="#" class="nav-link active disabled">Enlace 2</a>
-            <a href="#" class="nav-link active">Enlace 3</a>
-        </ul>
-
-        <ul class="nav flex-column">
-            <a href="#" class="nav-link active">Enlace 1</a>
-            <a href="#" class="nav-link active disabled">Enlace 2</a>
-            <a href="#" class="nav-link active">Enlace 3</a>
-        </ul>
-
-        <ul class="nav flex-column nav-pills">
-            <a href="#" class="nav-link active bg-warning">Enlace 1</a>
-            <a href="#" class="nav-link active disabled">Enlace 2</a>
-            <a href="#" class="nav-link active">Enlace 3</a>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:brown">
+            <a class="navbar-brand text-white">Parrillas</a>
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link">Otros</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link">Post</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" data-target="desplegable" href="#">
+                            Administacion
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Usarios</a>                        
+                            <a class="dropdown-item" href="#">Perfiles</a>
+                            <a class="dropdown-item" href="#">otros</a>
+                        </div>
+                    </li>
+                </ul>
+                <span class="navbar-text mr-sm-2">Texto Plano</span>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2">
+                    <button class="btn btn-success">Buscar</button>
+                </form>
+            </div>
+        </nav>
     </div>
 </body>
 </html>
