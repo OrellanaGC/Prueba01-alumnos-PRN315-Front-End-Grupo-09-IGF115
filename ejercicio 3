@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <title>Document</title>
+   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
+   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-reboot.min.css">
+   <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js"></script>
+   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+   <script type ="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+
+</head>
+<body>
+    <h1>hola mundo</h1>
+    <input type="text" class="form-control">
+
+
+
+    <div class="container">
+        <div class="row">
+         <div class="col-xl-6 col-lg-4 col-sm-8 col-6" style="background-color: gold;height: 200px;">
+             testo 1
+         </div>  
+         <div class="col-xl-6 col-lg-4 col-sm-4 col-6" style="background-color: fuchsia;height: 200px;">
+            testo 2
+        </div> 
+        <div class="col-xl-12 col-lg-4 col-sm-12 col-6" style="background-color: aqua;height: 200px;">
+            texto 3
+        </div>
+  
+       
+            
+</div >
+       
+
+
+
+</body>
+</html>
