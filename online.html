@@ -11,45 +11,44 @@
 </head>
 <body>
     <div class="container"> 
-        <a class="btn btn-primary" href=".multi" data-toggle="collapse">Desplegar</a> 
-        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#toggle2">Desplegar2</button>
-        <div class="collapse multi" id="toggle1">
-            <div class="card card-body">
-                <p>
-                    Este es mi contenido desplegable
-                </p>
-            </div>            
-        </div>   
-        <div class="collapse multi" id="toggle2">
-            <div class="card card-body">
-                <p>
-                    Este es mi contenido desplegable
-                </p>
-            </div>            
+        <div  class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Mostrar</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Item1</a>
+                <a href="#" class="dropdown-item">Item2</a>
+                <a href="#" class="dropdown-item">Item3</a>
+            </div>
         </div>
 
-        <div class="accordion">
-            <div class="card">
-                <div class="card-header">
-                    <h2><a class="btn btn-link" data-toggle="collapse" href="#card1">Encabezado</a></h2>
-                </div>
-                <div class="collapse" id="card1">
-                    <div class="card-body">
-                        Este es mi contenido oculto
-                    </div>
-                </div>
+        <br><br><br><br><br><br>
+
+        <div  class="btn-group dropup">
+            <a class="btn btn-primary dropdown-toggle" href="#" data-toggle="dropdown">Mostrar</a>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Item1</a>
+                <a href="#" class="dropdown-item active">Item2</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Item3</a>
             </div>
-            <div class="card">
-                <div class="card-header">
-                    <h2><a class="btn btn-link" data-toggle="collapse" href="#card2">Encabezado</a></h2>
-                </div>
-                <div class="collapse" id="card2">
-                    <div class="card-body">
-                        Este es mi contenido oculto
-                    </div>
-                </div>
+
+            <a class="btn btn-primary" href="#" data-toggle="dropdown">Mostrar</a>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Item1</a>
+                <a href="#" class="dropdown-item active">Item2</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Item3</a>
             </div>
         </div>
+
+        <div class="dropdown-menu">
+            <a class="btn btn-primary dropdown-toggle" href="#" data-toggle="dropdown">Mostrar</a>            
+            <div class="dropdown-menu">
+                <span class="dropdown-item-text">Menu</span>
+                <a href="#" class="dropdown-item">Item1</a>
+                <a href="#" class="dropdown-item">Item2</a>
+            </div>
+        </div>
+        
     </div>    
 </body>
 </html>
