@@ -11,30 +11,44 @@
 </head>
 <body>
     <div class="container"> 
-        <div class="card col-md-8">
-            <img src="img/01.jpg" class="card-img-top">
-            <div class="card-body ">
-                <h5 class="card-title">Esta es una postal</h5>
-                <h6 class="card-subtitle text-muted">El Salvador</h6>
-                <p class="card-text">Este es un mensaje de mi carta</p>
-                <a href="#" class="btn btn-primary">VER</a>
-                <a href="#" class="btn btn-danger">DESCARTAR</a>
-            </div>
+        <a class="btn btn-primary" href=".multi" data-toggle="collapse">Desplegar</a> 
+        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#toggle2">Desplegar2</button>
+        <div class="collapse multi" id="toggle1">
+            <div class="card card-body">
+                <p>
+                    Este es mi contenido desplegable
+                </p>
+            </div>            
+        </div>   
+        <div class="collapse multi" id="toggle2">
+            <div class="card card-body">
+                <p>
+                    Este es mi contenido desplegable
+                </p>
+            </div>            
         </div>
 
-        <div class="card col-md-8">
-            <div class="card-header">header</div>
-            <div class="card-body ">
-                <p class="card-text">Este es un mensaje de mi carta</p>
+        <div class="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <h2><a class="btn btn-link" data-toggle="collapse" href="#card1">Encabezado</a></h2>
+                </div>
+                <div class="collapse" id="card1">
+                    <div class="card-body">
+                        Este es mi contenido oculto
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="card" style="width:400px;">
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Elemento 1</li>
-                <li class="list-group-item">Elemento 2</li>
-                <li class="list-group-item">Elemento 3</li>
-            </ul>
+            <div class="card">
+                <div class="card-header">
+                    <h2><a class="btn btn-link" data-toggle="collapse" href="#card2">Encabezado</a></h2>
+                </div>
+                <div class="collapse" id="card2">
+                    <div class="card-body">
+                        Este es mi contenido oculto
+                    </div>
+                </div>
+            </div>
         </div>
     </div>    
 </body>
