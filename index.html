@@ -12,78 +12,63 @@
 
 <script>
 
-    $(function(){
-
-        $('#modal1').on('show.bs.modal',function(e){
-            alert('El modal ha sido llamado')
-        });
-
-    });
-    $(document).on('click','#mostrar-modal',function(){
-        $('#modal1').modal('show');
-    })
-
-    $(function(){
-
-        $('#modal1').modal({
-            backdrop: 'static',
-            keyboard: false,
-            focus: false,
-            show:false
-        });
-
-        /*show.bs.modal
-        shown.bs.modal
-        hide.bs.modal
-        hiden.bs.modal*/
-
-    });
 </script>
 
 <body>
-    <div class="container"> 
-        <div class="modal fade" tabindex="-1" id="modal1">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">Encabezado
-                        <button class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                        Cuerpo del modal <br>
-                    </div>
-                    <div class="modal-footer">pie
-                        <button class="btn btn-primary">Guardar cambios </button>
-                        <button class="btn btn-danger" data-dismiss="modal">&times;</button>
-                    </div>
-                
-                </div>
-            </div>
-        </div>
-        <button class="btn btn-primary" type="button" data-toggle='modal' data-target='#modal1'>Mostrar Modal</button>
-    </div>    
+    <div class="container">
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Enlace 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Enlace 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Enlace 3</a>
+            </li>
+        </ul>   
+        
+        <ul class="nav nav-pills">
+            <a href="#" class="nav-link active">Enlace 1</a>
+            <a href="#" class="nav-link active disabled">Enlace 2</a>
+            <a href="#" class="nav-link active">Enlace 3</a>
+        </ul>
+
+        <ul class="nav nav-tabs">
+            <a href="#" class="nav-link active">Enlace 1</a>
+            <a href="#" class="nav-link active disabled">Enlace 2</a>
+            <a href="#" class="nav-link active">Enlace 3</a>
+        </ul>
+
+        <ul class="nav nav-tabs nav-pills">
+            <a href="#" class="nav-link active">Enlace 1</a>
+            <a href="#" class="nav-link active disabled">Enlace 2</a>
+            <a href="#" class="nav-link active">Enlace 3</a>
+        </ul>
+
+        <ul class="nav nav-tabs nav-pills  justify-content-center">
+            <a href="#" class="nav-link active">Enlace 1</a>
+            <a href="#" class="nav-link active disabled">Enlace 2</a>
+            <a href="#" class="nav-link active">Enlace 3</a>
+        </ul>
+
+        <ul class="nav nav-tabs nav-pills  justify-content-end">
+            <a href="#" class="nav-link active bg-danger">Enlace 1</a>
+            <a href="#" class="nav-link active disabled">Enlace 2</a>
+            <a href="#" class="nav-link active">Enlace 3</a>
+        </ul>
+
+        <ul class="nav flex-column">
+            <a href="#" class="nav-link active">Enlace 1</a>
+            <a href="#" class="nav-link active disabled">Enlace 2</a>
+            <a href="#" class="nav-link active">Enlace 3</a>
+        </ul>
+
+        <ul class="nav flex-column nav-pills">
+            <a href="#" class="nav-link active bg-warning">Enlace 1</a>
+            <a href="#" class="nav-link active disabled">Enlace 2</a>
+            <a href="#" class="nav-link active">Enlace 3</a>
+        </ul>
+    </div>
 </body>
 </html>
