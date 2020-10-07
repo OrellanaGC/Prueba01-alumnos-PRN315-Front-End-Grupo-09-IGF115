@@ -3,12 +3,7 @@
 <head>    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Boostrap online</title>
-    <script type="text/javascript">
-        $(document).on('click','#cerrar-alerta',function(){
-            $('alert1').alert('close');
-        })
-    </script>
+    <title>Boostrap online</title>    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -16,23 +11,13 @@
 </head>
 <body>
     <div class="container"> 
-        <div class="alert alert-primary" id="alert1"> Esta es una alerta primary <a href="#" class="alert-link">enlace</a></div>
-        <div class="alert alert-secondary alert-dismissible fade show"> 
-            Esta es una alerta secondary
-            <button type="button" class="close" data-dismiss="alert" arial-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div>
-        <button id="cerrar-alerta">Cerrar</button>
-        <div class="alert alert-info"> Esta es una alerta de info</div>
-        <div class="alert alert-success"> Esta es una alerta succes</div>
-        <div class="alert alert-danger"> Esta es una alerta danger</div>
-        <div class="alert alert-warning"> Esta es una alerta warning</div>
-        <div class="alert alert-dark"> 
-            <h3 class="alert-heading">Titulo advertencia</h3>
-            Esta es una alerta dark</div>
-
-        <div class="bg-dark" style="padding: 50px;">
-            <div class="alert alert-light"> Esta es una alerta light</div> 
-        </div>               
+        <h1>Ejemplo de<span class="badge badge-primary">badge</span></h1>
+        <h3>Ejemplo de<span class="badge badge-primary">badge</span></h3>
+        <span style="font-size: 20px" class="badge badge-primary">badge</span>
+        <a href="#" style="font-size: 40px" class="badge badge-primary">Mensaje <span class="badge badge-light">44</span></a>
+        <a href="#" class="btn badge-warning">Alertas <span class="badge badge-dark">12</span></a>
+        <span class="badge badge-pill badge-primary">Badge pildora</span>
+        <span class="badge badge-dark">Badge dark</span>
     </div>    
 </body>
 </html>
