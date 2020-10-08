@@ -1,49 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Barras de navegacion</title>    
+<head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Barras de navegacion</title>      
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
-
-<script>
-
-</script>
-
-<body>
-    <div class="container">
-        <div class="progress">
-            <div class="progress-bar w-75 bg-danger"> 75%</div>
-        </div>
-        <div class="progress" style="height:50px">
-            <div class="progress-bar" style="width: 30%; font-size: 20px;">30%</div>
-        </div>
-        <div class="progress" style="height:50px">
-            <div class="progress-bar bg-warning progress-bar-striped" style="width: 30%; font-size: 20px;">30%</div>
-            <div class="progress-bar" style="width: 70%; font-size: 20px;">70%</div>
-            <div class="progress-bar bg-dark" style="width: 100%; font-size: 20px;">100%</div>
-        </div>
-
-        <div class="spinner-border text-danger"></div>
-        <div class="spinner-grow text-info"></div>
-        <div class="d-flex justify-content-center">
-            <div class="spinner-border text-danger justify-content-center"></div>
-        </div>      
-        <div class="d-flex justify-content-end">
-            <div class="spinner-border text-danger justify-content-center"></div>
-        </div>   
-
-        <button type="button" class="btn btn-primary">            
-            <div class="spinner-border text-light spinner-border-sm"></div>
-            <span>cargando</span>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <a href="#" class="navbar-brand">CodeStack</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu" type="button">
+            <span class="navbar-toggler-icon"></span>
         </button>
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Post</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Mensajes <span class="badge badge-primary">4</span></a>
+                </li>
+            </ul>
+            <span class="navbar-text mr-sm-2">www.youtube.com/CodeStack</span>
+            <div class="form-inline">
+                <input type="text" class="form-control mr-sm-2">
+                <button type="submit" class="btn btn-outline-primary mr-sm-2">Buscar</button>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
 
-        <div class="spinner-border text-info" style="font-size: 26px;"></div>
-        <div class="spinner-border text-info" style="height: 50px; width: 50px;"></div>
+        <div class="row">
+            <div class="col-md-6 text-white">
+                <div class="display-4">CodeStack</div>
+                <p style="text-align:justify">
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-12 bg-light py-3">
+                    <div class="row">
+                        <div class="form-group col-md">
+                            <label>Correo</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md">
+                            <label>Usuario</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md">
+                            <label>Telefono</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md">
+                            <label>Direccion</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md">
+                            <button type="submit" class="btn btn-outline-info">INGRESAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="alert alert-dark col">
+                <button class="close" data-dismiss="alert">
+                    <span>&times;</span>
+                </button>
+                <h4 class="alert-heading">Estas Conectado </h4>
+                <p>Las gotitas que caen del cielo, lala lala.</p>
+                <hr>
+                <p>Las gotitas que caen del cielo, lala lala.</p>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">Yes</button>
+                    <button type="button" class="btn btn-success">No</button>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-3 col-xs-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo de la targeta</h5>
+                        <h6 class="card-subtitle text-muted">subtitulo</h6>
+                        <p class="card-text">
+                            Este texto va en la targeta, este texto va en la targeta; este texto va en la targeta.Este texto va en la targeta, este texto va en la targeta; este texto va en la targeta.
+                        </p>
+                        <a href="#" class="card-link btn btn-danger">Link 1</a>
+                        <a href="#" class="card-link btn btn-primary">Link 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo de la targeta</h5>
+                        <h6 class="card-subtitle text-muted">subtitulo</h6>
+                        <p class="card-text">
+                            Este texto va en la targeta, este texto va en la targeta; este texto va en la targeta.Este texto va en la targeta, este texto va en la targeta; este texto va en la targeta.
+                        </p>
+                        <a href="#" class="card-link btn btn-danger">Link 1</a>
+                        <a href="#" class="card-link btn btn-primary">Link 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo de la targeta</h5>
+                        <h6 class="card-subtitle text-muted">subtitulo</h6>
+                        <p class="card-text">
+                            Este texto va en la targeta, este texto va en la targeta; este texto va en la targeta.Este texto va en la targeta, este texto va en la targeta; este texto va en la targeta.
+                        </p>
+                        <a href="#" class="card-link btn btn-danger">Link 1</a>
+                        <a href="#" class="card-link btn btn-primary">Link 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo de la targeta</h5>
+                        <h6 class="card-subtitle text-muted">subtitulo</h6>
+                        <p class="card-text">
+                            Este texto va en la targeta, este texto va en la targeta; este texto va en la targeta.Este texto va en la targeta, este texto va en la targeta; este texto va en la targeta.
+                        </p>
+                        <a href="#" class="card-link btn btn-danger">Link 1</a>
+                        <a href="#" class="card-link btn btn-primary">Link 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col-md-12">
+            </div><div class="row">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"> <a href="#" class="nav-link active">Link 1</a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link">Link 2</a></li>
+                </ul>
+            </div>
+            <div class="row bg-white px-3 py-3">
+                <p>Un texto cualquiera puede ser agregado aqui</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="jumbotron">
+            <h4 class="display-4">error al cargar</h4>
+            <p class="lead">no se porque no cargo esto</p>
+            <hr>
+            <p>no se porque no cargo esto</p>
+            <button class="btn btn-lg btn-info">ACEPTAR</button>
+        </div>
+
     </div>
 </body>
 </html>
