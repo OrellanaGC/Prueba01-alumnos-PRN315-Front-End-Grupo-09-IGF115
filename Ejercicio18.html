@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no">
+    <title>Video 18</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function(){
+        $('#modal1').on('hidden.bs.modal',function(e){
+            alert('el modal ha sido llamado');
+            })     
+        });
+        $(document).on('click',  '#mostral-modal',function(){
+            $('#modal1').modal('show');
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="modal fade" tabindex="-1" id="modal1">
+            <div class="modal-dialog modal-sm modal-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        encabezado
+                    </div> 
+                    <div class="modal-body">
+                        Conseguir lo que quieres es tan difícil como no conseguir lo que quieres. Porque entonces tienes que averiguar qué hacer con ello, en lugar de averiguar qué hacer sin ello. (El reino de la posibilidad, David Levithan)
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">guardar cambios</button>
+                        <button class="btn btn-danger" data-dismiss='modal'>&times;</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <button class="btn btn-primary" type="button" data-toggle='modal' data-target='#modal1'>mostrar modal</button>
+    </div>    
+</body>
+</html>
