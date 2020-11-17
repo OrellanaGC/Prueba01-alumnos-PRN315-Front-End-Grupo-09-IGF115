@@ -1,0 +1,560 @@
+﻿1
+00:00:05,070 --> 00:00:09,240
+ahora aprenderemos cómo crear tarjetas
+
+2
+00:00:07,380 --> 00:00:12,180
+en bus atrás es realmente muy fácil de
+
+3
+00:00:09,240 --> 00:00:14,580
+realizar vamos a crear un tipo de clase
+
+4
+00:00:12,180 --> 00:00:17,730
+card y dentro de él vamos a agregar
+
+5
+00:00:14,580 --> 00:00:20,190
+nuestro contenido podemos agregar alguna
+
+6
+00:00:17,730 --> 00:00:22,529
+imagen para este el encabezado ya tengo
+
+7
+00:00:20,190 --> 00:00:26,369
+ahí una carpeta con algunas imágenes voy
+
+8
+00:00:22,529 --> 00:00:29,910
+a agregarle 01 punto jpg y este para
+
+9
+00:00:26,369 --> 00:00:31,919
+agregar dentro de una dentro de un día
+
+10
+00:00:29,910 --> 00:00:37,990
+de clase card vamos a agregar nuestro
+
+11
+00:00:31,919 --> 00:00:39,670
+día de clase card content berdonés card
+
+12
+00:00:37,990 --> 00:00:42,460
+body
+
+13
+00:00:39,670 --> 00:00:44,589
+y dentro de le vamos a agregar este todo
+
+14
+00:00:42,460 --> 00:00:47,519
+nuestro contenido vamos vamos a agregar
+
+15
+00:00:44,589 --> 00:00:47,519
+aquí algún título
+
+16
+00:00:48,750 --> 00:00:53,550
+que vamos a utilizar el clase card
+
+17
+00:00:51,360 --> 00:00:57,210
+título
+
+18
+00:00:53,550 --> 00:01:00,120
+vamos a poner esta es una postal porque
+
+19
+00:00:57,210 --> 00:01:04,050
+decía así y vamos a agregar aquí algún
+
+20
+00:01:00,120 --> 00:01:06,000
+texto con la ética con la etiqueta pe y
+
+21
+00:01:04,050 --> 00:01:08,610
+a la etiqueta pe le vamos a agregar la
+
+22
+00:01:06,000 --> 00:01:10,850
+clase card
+
+23
+00:01:08,610 --> 00:01:12,950
+text
+
+24
+00:01:10,850 --> 00:01:15,080
+vamos a agregar aquí por aquí cualquier
+
+25
+00:01:12,950 --> 00:01:18,040
+texto este es un
+
+26
+00:01:15,080 --> 00:01:18,039
+mensaje
+
+27
+00:01:18,360 --> 00:01:24,240
+y mi carta simplemente con esto ahora si
+
+28
+00:01:21,960 --> 00:01:26,039
+nos vamos al navegador aquí podemos ver
+
+29
+00:01:24,240 --> 00:01:27,839
+a nuestra postal solo mete que aparece
+
+30
+00:01:26,040 --> 00:01:29,430
+ocupando toda toda la página aquí
+
+31
+00:01:27,840 --> 00:01:31,530
+tenemos nuestra imagen que podemos ver
+
+32
+00:01:29,430 --> 00:01:34,460
+un pequeño borde pero vamos a cambiar
+
+33
+00:01:31,530 --> 00:01:39,300
+este ancho está demasiado ancho esto
+
+34
+00:01:34,460 --> 00:01:44,660
+bueno de aplicar aquí un call m d
+
+35
+00:01:39,300 --> 00:01:44,660
+8 14
+
+36
+00:01:45,240 --> 00:01:48,470
+después del tamaño de la imagen cómo
+
+37
+00:01:46,890 --> 00:01:52,210
+sale
+
+38
+00:01:48,470 --> 00:01:54,840
+voy a agregar aquí está ahí
+
+39
+00:01:52,210 --> 00:01:54,839
+ruiz
+
+40
+00:01:55,590 --> 00:01:59,000
+100 píxeles
+
+41
+00:01:59,670 --> 00:02:07,159
+vamos a agregar 400 píxeles voy a
+
+42
+00:02:04,229 --> 00:02:07,159
+agregar a la imagen
+
+43
+00:02:07,290 --> 00:02:10,729
+la clase este
+
+44
+00:02:10,949 --> 00:02:19,269
+al agregar una clase acuerdo class es
+
+45
+00:02:16,740 --> 00:02:20,950
+img top
+
+46
+00:02:19,270 --> 00:02:22,720
+ahora sí puede ser que sería de esa
+
+47
+00:02:20,950 --> 00:02:25,299
+manera estirar entonces aquí ya tenemos
+
+48
+00:02:22,720 --> 00:02:27,670
+este nuestra imagen y también dentro de
+
+49
+00:02:25,300 --> 00:02:30,250
+nuestra tarjeta nosotros podemos agregar
+
+50
+00:02:27,670 --> 00:02:30,839
+algún botón simplemente en la parte de
+
+51
+00:02:30,250 --> 00:02:33,600
+abajo
+
+52
+00:02:30,840 --> 00:02:38,040
+digamos ver
+
+53
+00:02:33,600 --> 00:02:41,359
+y vamos a poner aquí la clase de tn pp
+
+54
+00:02:38,040 --> 00:02:45,700
+en primaria
+
+55
+00:02:41,360 --> 00:02:48,430
+entonces aquí ya tenemos nuestra tarjeta
+
+56
+00:02:45,700 --> 00:02:50,640
+podemos agregar también por aquí otro
+
+57
+00:02:48,430 --> 00:02:50,640
+botón
+
+58
+00:02:51,970 --> 00:02:58,080
+danger
+
+59
+00:02:54,010 --> 00:02:58,079
+y lo voy a poner descartar
+
+60
+00:02:58,190 --> 00:03:04,190
+entonces aquí ya tenemos nuestra tarjeta
+
+61
+00:03:01,270 --> 00:03:07,070
+podemos crear una también que
+
+62
+00:03:04,190 --> 00:03:09,170
+simplemente no contenga ninguna imagen
+
+63
+00:03:07,070 --> 00:03:11,780
+simplemente le podemos agregar algún
+
+64
+00:03:09,170 --> 00:03:15,619
+texto le voy a quitar la imagen le voy a
+
+65
+00:03:11,780 --> 00:03:18,460
+quitar el título y le voy a quitar los
+
+66
+00:03:15,620 --> 00:03:18,460
+botones que le agrega
+
+67
+00:03:19,200 --> 00:03:25,730
+simplemente una tarjeta muy sencilla voy
+
+68
+00:03:21,870 --> 00:03:25,730
+a vivir acá para que se visualice mejor
+
+69
+00:03:27,069 --> 00:03:31,899
+y tenemos una pequeña tarjeta aquí
+
+70
+00:03:29,439 --> 00:03:33,519
+tenemos unos pequeños bordes simplemente
+
+71
+00:03:31,900 --> 00:03:36,010
+con eso nosotros podemos crear también
+
+72
+00:03:33,519 --> 00:03:38,569
+una o le podemos agregar también por acá
+
+73
+00:03:36,010 --> 00:03:41,328
+un título
+
+74
+00:03:38,569 --> 00:03:43,670
+para nuestra tarjeta también nuestra
+
+75
+00:03:41,329 --> 00:03:48,709
+tarjeta después le podemos agregar este
+
+76
+00:03:43,670 --> 00:03:53,499
+un subtítulo vamos a agregar por acá 11
+
+77
+00:03:48,709 --> 00:03:53,499
+txe 6 y le vamos a agregar la clase
+
+78
+00:03:58,319 --> 00:04:04,078
+su título y le vamos a agregar el texto
+
+79
+00:04:02,400 --> 00:04:06,209
+new day
+
+80
+00:04:04,079 --> 00:04:08,749
+esto es una postal vamos a poner aquí el
+
+81
+00:04:06,209 --> 00:04:08,749
+salvador
+
+82
+00:04:09,770 --> 00:04:14,840
+entonces podemos ver que aparece en un
+
+83
+00:04:11,660 --> 00:04:16,399
+tono este grisáceo más suave también
+
+84
+00:04:14,840 --> 00:04:20,430
+dentro de la tarjeta nosotros podemos
+
+85
+00:04:16,399 --> 00:04:22,590
+crear alguna alguna lista
+
+86
+00:04:20,430 --> 00:04:24,980
+o alguna lista agrupada simplemente
+
+87
+00:04:22,590 --> 00:04:27,969
+agregamos tip flash card
+
+88
+00:04:24,980 --> 00:04:31,280
+vamos a darle el mismo ancho muy bien
+
+89
+00:04:27,970 --> 00:04:36,730
+400 píxeles y vamos a agregar
+
+90
+00:04:31,280 --> 00:04:36,729
+simplemente una lista huele
+
+91
+00:04:38,990 --> 00:04:48,310
+gas cni group
+
+92
+00:04:42,980 --> 00:04:48,310
+con la clase del 10 cruz group flow
+
+93
+00:04:51,900 --> 00:04:55,280
+y vamos a agregar cada uno de los
+
+94
+00:04:53,550 --> 00:04:56,900
+elementos
+
+95
+00:04:55,280 --> 00:05:00,429
+a nuestro libro vamos a llegar a la
+
+96
+00:04:56,900 --> 00:05:03,568
+clase list hay dent
+
+97
+00:05:00,430 --> 00:05:09,529
+es listo
+
+98
+00:05:03,569 --> 00:05:09,529
+hayden vamos a poner aquí elemento 1
+
+99
+00:05:09,580 --> 00:05:13,169
+elemento dos elementos 3
+
+100
+00:05:15,510 --> 00:05:20,300
+y aquí ya tenemos casi no se ve muy bien
+
+101
+00:05:25,610 --> 00:05:29,840
+y aquí tenemos nuestra lista
+
+102
+00:05:27,250 --> 00:05:32,689
+posiblemente en el vídeo no se distinga
+
+103
+00:05:29,840 --> 00:05:35,198
+muy bien cada uno que esté los bordes
+
+104
+00:05:32,689 --> 00:05:37,849
+que éste tiene pero aquí podemos crear
+
+105
+00:05:35,199 --> 00:05:39,349
+nuestra lista podemos crear podemos
+
+106
+00:05:37,849 --> 00:05:43,188
+agregar también lo que es la clase
+
+107
+00:05:39,349 --> 00:05:44,480
+active para que aparezca ya en otro
+
+108
+00:05:43,189 --> 00:05:46,520
+color
+
+109
+00:05:44,480 --> 00:05:51,350
+también a nuestra tarjeta nosotros le
+
+110
+00:05:46,520 --> 00:05:53,620
+podemos agregar otro otro día de clase
+
+111
+00:05:51,350 --> 00:05:53,620
+heather
+
+112
+00:05:54,200 --> 00:05:59,490
+con nosotros le podemos bueno sería card
+
+113
+00:05:57,080 --> 00:06:01,889
+reader
+
+114
+00:05:59,490 --> 00:06:04,889
+y podemos poner aquí un título en la
+
+115
+00:06:01,889 --> 00:06:07,380
+parte superior eso es aquí tenemos ya
+
+116
+00:06:04,889 --> 00:06:10,349
+nuestro título que se parece bastante a
+
+117
+00:06:07,380 --> 00:06:13,020
+los paneles pero los paneles ya fueron
+
+118
+00:06:10,349 --> 00:06:14,729
+removidos en vuestra 4 entonces es de
+
+119
+00:06:13,020 --> 00:06:17,099
+esta manera como nosotros podemos crear
+
+120
+00:06:14,729 --> 00:06:20,610
+tarjetas en busca simplemente utilizamos
+
+121
+00:06:17,099 --> 00:06:23,099
+la clase card que la principal podemos
+
+122
+00:06:20,610 --> 00:06:25,979
+agregar una imagen con la clase que img
+
+123
+00:06:23,099 --> 00:06:28,440
+top agregamos nuestro contenido con la
+
+124
+00:06:25,979 --> 00:06:30,870
+clase card body podemos agregar un
+
+125
+00:06:28,440 --> 00:06:33,300
+título con carl tyson y podemos quedar
+
+126
+00:06:30,870 --> 00:06:35,639
+un subtítulo con karzai title no sé cómo
+
+127
+00:06:33,300 --> 00:06:37,770
+se pronuncia y textiles para que
+
+128
+00:06:35,639 --> 00:06:39,870
+aparezca un tono grisáceo este para
+
+129
+00:06:37,770 --> 00:06:42,840
+quien no resalte tanto
+
+130
+00:06:39,870 --> 00:06:44,520
+en la etiqueta para párrafos logramos un
+
+131
+00:06:42,840 --> 00:06:46,739
+kart text y podemos agregar aquí
+
+132
+00:06:44,520 --> 00:06:49,260
+simplemente un enlace en la parte de
+
+133
+00:06:46,740 --> 00:06:51,180
+abajo y podemos crear listas simplemente
+
+134
+00:06:49,260 --> 00:06:52,950
+con google y podemos crear es
+
+135
+00:06:51,180 --> 00:06:55,680
+simplemente utilizando el clase de list
+
+136
+00:06:52,950 --> 00:06:58,110
+group y liz group flors y cada uno de
+
+137
+00:06:55,680 --> 00:07:01,050
+los elementos con la clase list group
+
+138
+00:06:58,110 --> 00:07:05,010
+aig y podemos utilizar active para que
+
+139
+00:07:01,050 --> 00:07:08,150
+aparezca que esté enfocado resaltado el
+
+140
+00:07:05,010 --> 00:07:08,150
+elemento de la lista
+
